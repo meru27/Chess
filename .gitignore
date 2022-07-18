@@ -1,0 +1,5 @@
+# Ignora la carpeta node_modules
+.settings
+build_native
+.classpath
+.project
