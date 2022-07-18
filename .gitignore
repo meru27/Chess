@@ -1,5 +1,5 @@
 # Ignora la carpeta node_modules
 .settings
-build_native
+bin
 .classpath
 .project
