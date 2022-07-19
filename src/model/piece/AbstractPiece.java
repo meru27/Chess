@@ -2,6 +2,7 @@ package model.piece;
 
 import model.Cell;
 import model.Color;
+import util.Direction;
 
 public abstract class AbstractPiece implements Piece{
 	
@@ -25,7 +26,7 @@ public abstract class AbstractPiece implements Piece{
 	}
 
 	@Override
-	public abstract boolean validMove(Cell origin, Cell destination, boolean piecesBetween);
+	public abstract boolean validMove(Cell origin, Direction dir, boolean piecesBetween);
 
 	@Override
 	public void setCell(Cell c) {
