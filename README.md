@@ -1,1 +1,1 @@
-#Java implementation of the game chess.
+# Java implementation of the game chess.
